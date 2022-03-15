@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1303D29524789BE40087A4EA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1303D29424789BE40087A4EA /* MainView.swift */; };
+		13648D52248D148100E698CA /* Win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 13648D50248D148100E698CA /* Win.mp3 */; };
+		13648D53248D148100E698CA /* Error.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 13648D51248D148100E698CA /* Error.mp3 */; };
+		13759C67247829C10047B751 /* TimeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13759C66247829C10047B751 /* TimeObject.swift */; };
+		138F81A924952028007E13BB /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138F81A824952028007E13BB /* GameKit.framework */; };
+		13CEEDDC248A6B3800684145 /* Istruzioni.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CEEDDB248A6B3800684145 /* Istruzioni.swift */; };
+		13CEEDDE248A8E3D00684145 /* CentralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CEEDDD248A8E3D00684145 /* CentralView.swift */; };
+		13D600972476A31300BBB1E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D600962476A31300BBB1E3 /* AppDelegate.swift */; };
+		13D600992476A31300BBB1E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D600982476A31300BBB1E3 /* SceneDelegate.swift */; };
+		13D6009C2476A31300BBB1E3 /* ColorBrite.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13D6009A2476A31300BBB1E3 /* ColorBrite.xcdatamodeld */; };
+		13D6009E2476A31300BBB1E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D6009D2476A31300BBB1E3 /* ContentView.swift */; };
+		13D600A02476A31500BBB1E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D6009F2476A31500BBB1E3 /* Assets.xcassets */; };
+		13D600A32476A31500BBB1E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D600A22476A31500BBB1E3 /* Preview Assets.xcassets */; };
+		13D600A62476A31500BBB1E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D600A42476A31500BBB1E3 /* LaunchScreen.storyboard */; };
+		13D600B12476A31500BBB1E3 /* ColorBriteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D600B02476A31500BBB1E3 /* ColorBriteTests.swift */; };
+		13D600BC2476A31500BBB1E3 /* ColorBriteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D600BB2476A31500BBB1E3 /* ColorBriteUITests.swift */; };
+		13D600CA2476A32E00BBB1E3 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D600C92476A32E00BBB1E3 /* TimerView.swift */; };
+		13D600CC2476A59800BBB1E3 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D600CB2476A59800BBB1E3 /* CircleView.swift */; };
+		2095800C4072C5848C9023A5 /* libPods-ColorBrite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C1AB2F8D8768F65B197EB7 /* libPods-ColorBrite.a */; };
+		AA2DC07D4EE4AD3EFE3834A2 /* libPods-ColorBrite-ColorBriteUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8059A6A80B31AD64AA4BE0CA /* libPods-ColorBrite-ColorBriteUITests.a */; };
+		C61233BB708D8713CF57CFE5 /* libPods-ColorBriteTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6420BD2AEE4400E75FCB46 /* libPods-ColorBriteTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13D600AD2476A31500BBB1E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13D6008B2476A31300BBB1E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13D600922476A31300BBB1E3;
+			remoteInfo = ColorBrite;
+		};
+		13D600B82476A31500BBB1E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13D6008B2476A31300BBB1E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13D600922476A31300BBB1E3;
+			remoteInfo = ColorBrite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1303D29424789BE40087A4EA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		13648D50248D148100E698CA /* Win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Win.mp3; sourceTree = "<group>"; };
+		13648D51248D148100E698CA /* Error.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Error.mp3; sourceTree = "<group>"; };
+		13759C66247829C10047B751 /* TimeObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeObject.swift; sourceTree = "<group>"; };
+		138F81A824952028007E13BB /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		13CEEDDB248A6B3800684145 /* Istruzioni.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Istruzioni.swift; sourceTree = "<group>"; };
+		13CEEDDD248A8E3D00684145 /* CentralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralView.swift; sourceTree = "<group>"; };
+		13D600932476A31300BBB1E3 /* ColorBrite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorBrite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D600962476A31300BBB1E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13D600982476A31300BBB1E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		13D6009B2476A31300BBB1E3 /* ColorBrite.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ColorBrite.xcdatamodel; sourceTree = "<group>"; };
+		13D6009D2476A31300BBB1E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13D6009F2476A31500BBB1E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13D600A22476A31500BBB1E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		13D600A52476A31500BBB1E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13D600A72476A31500BBB1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13D600AC2476A31500BBB1E3 /* ColorBriteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorBriteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D600B02476A31500BBB1E3 /* ColorBriteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBriteTests.swift; sourceTree = "<group>"; };
+		13D600B22476A31500BBB1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13D600B72476A31500BBB1E3 /* ColorBriteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorBriteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D600BB2476A31500BBB1E3 /* ColorBriteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBriteUITests.swift; sourceTree = "<group>"; };
+		13D600BD2476A31500BBB1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13D600C92476A32E00BBB1E3 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		13D600CB2476A59800BBB1E3 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		1F6420BD2AEE4400E75FCB46 /* libPods-ColorBriteTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorBriteTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		511FD15CF01F75051804BE14 /* Pods-ColorBrite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorBrite.debug.xcconfig"; path = "Target Support Files/Pods-ColorBrite/Pods-ColorBrite.debug.xcconfig"; sourceTree = "<group>"; };
+		59A7088EEEDDBD0A4888E881 /* Pods-ColorBrite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorBrite.release.xcconfig"; path = "Target Support Files/Pods-ColorBrite/Pods-ColorBrite.release.xcconfig"; sourceTree = "<group>"; };
+		8059A6A80B31AD64AA4BE0CA /* libPods-ColorBrite-ColorBriteUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorBrite-ColorBriteUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A376E16F572AA6F2F1C140B /* Pods-ColorBrite-ColorBriteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorBrite-ColorBriteUITests.debug.xcconfig"; path = "Target Support Files/Pods-ColorBrite-ColorBriteUITests/Pods-ColorBrite-ColorBriteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9601CD83F2B2466B29F08CBE /* Pods-ColorBriteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorBriteTests.release.xcconfig"; path = "Target Support Files/Pods-ColorBriteTests/Pods-ColorBriteTests.release.xcconfig"; sourceTree = "<group>"; };
+		A7C1AB2F8D8768F65B197EB7 /* libPods-ColorBrite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorBrite.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B822BDE6417CEC9583FB765E /* Pods-ColorBriteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorBriteTests.debug.xcconfig"; path = "Target Support Files/Pods-ColorBriteTests/Pods-ColorBriteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F472F4ADE6D4425F933190F3 /* Pods-ColorBrite-ColorBriteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorBrite-ColorBriteUITests.release.xcconfig"; path = "Target Support Files/Pods-ColorBrite-ColorBriteUITests/Pods-ColorBrite-ColorBriteUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13D600902476A31300BBB1E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138F81A924952028007E13BB /* GameKit.framework in Frameworks */,
+				2095800C4072C5848C9023A5 /* libPods-ColorBrite.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D600A92476A31500BBB1E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61233BB708D8713CF57CFE5 /* libPods-ColorBriteTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D600B42476A31500BBB1E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2DC07D4EE4AD3EFE3834A2 /* libPods-ColorBrite-ColorBriteUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		138F81A724952028007E13BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				138F81A824952028007E13BB /* GameKit.framework */,
+				A7C1AB2F8D8768F65B197EB7 /* libPods-ColorBrite.a */,
+				8059A6A80B31AD64AA4BE0CA /* libPods-ColorBrite-ColorBriteUITests.a */,
+				1F6420BD2AEE4400E75FCB46 /* libPods-ColorBriteTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13D6008A2476A31300BBB1E3 = {
+			isa = PBXGroup;
+			children = (
+				13D600952476A31300BBB1E3 /* ColorBrite */,
+				13D600AF2476A31500BBB1E3 /* ColorBriteTests */,
+				13D600BA2476A31500BBB1E3 /* ColorBriteUITests */,
+				13D600942476A31300BBB1E3 /* Products */,
+				138F81A724952028007E13BB /* Frameworks */,
+				2AEC31AF276978125E9B7EDB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		13D600942476A31300BBB1E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13D600932476A31300BBB1E3 /* ColorBrite.app */,
+				13D600AC2476A31500BBB1E3 /* ColorBriteTests.xctest */,
+				13D600B72476A31500BBB1E3 /* ColorBriteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13D600952476A31300BBB1E3 /* ColorBrite */ = {
+			isa = PBXGroup;
+			children = (
+				13D600962476A31300BBB1E3 /* AppDelegate.swift */,
+				13D600982476A31300BBB1E3 /* SceneDelegate.swift */,
+				13D6009D2476A31300BBB1E3 /* ContentView.swift */,
+				1303D29424789BE40087A4EA /* MainView.swift */,
+				13CEEDDD248A8E3D00684145 /* CentralView.swift */,
+				13D600CB2476A59800BBB1E3 /* CircleView.swift */,
+				13CEEDDB248A6B3800684145 /* Istruzioni.swift */,
+				13D600C92476A32E00BBB1E3 /* TimerView.swift */,
+				13759C66247829C10047B751 /* TimeObject.swift */,
+				13648D50248D148100E698CA /* Win.mp3 */,
+				13648D51248D148100E698CA /* Error.mp3 */,
+				13D6009F2476A31500BBB1E3 /* Assets.xcassets */,
+				13D600A42476A31500BBB1E3 /* LaunchScreen.storyboard */,
+				13D600A72476A31500BBB1E3 /* Info.plist */,
+				13D6009A2476A31300BBB1E3 /* ColorBrite.xcdatamodeld */,
+				13D600A12476A31500BBB1E3 /* Preview Content */,
+			);
+			path = ColorBrite;
+			sourceTree = "<group>";
+		};
+		13D600A12476A31500BBB1E3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				13D600A22476A31500BBB1E3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		13D600AF2476A31500BBB1E3 /* ColorBriteTests */ = {
+			isa = PBXGroup;
+			children = (
+				13D600B02476A31500BBB1E3 /* ColorBriteTests.swift */,
+				13D600B22476A31500BBB1E3 /* Info.plist */,
+			);
+			path = ColorBriteTests;
+			sourceTree = "<group>";
+		};
+		13D600BA2476A31500BBB1E3 /* ColorBriteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13D600BB2476A31500BBB1E3 /* ColorBriteUITests.swift */,
+				13D600BD2476A31500BBB1E3 /* Info.plist */,
+			);
+			path = ColorBriteUITests;
+			sourceTree = "<group>";
+		};
+		2AEC31AF276978125E9B7EDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				511FD15CF01F75051804BE14 /* Pods-ColorBrite.debug.xcconfig */,
+				59A7088EEEDDBD0A4888E881 /* Pods-ColorBrite.release.xcconfig */,
+				8A376E16F572AA6F2F1C140B /* Pods-ColorBrite-ColorBriteUITests.debug.xcconfig */,
+				F472F4ADE6D4425F933190F3 /* Pods-ColorBrite-ColorBriteUITests.release.xcconfig */,
+				B822BDE6417CEC9583FB765E /* Pods-ColorBriteTests.debug.xcconfig */,
+				9601CD83F2B2466B29F08CBE /* Pods-ColorBriteTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13D600922476A31300BBB1E3 /* ColorBrite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13D600C02476A31500BBB1E3 /* Build configuration list for PBXNativeTarget "ColorBrite" */;
+			buildPhases = (
+				D87AD77FD5189302A46E6EED /* [CP] Check Pods Manifest.lock */,
+				13D6008F2476A31300BBB1E3 /* Sources */,
+				13D600902476A31300BBB1E3 /* Frameworks */,
+				13D600912476A31300BBB1E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorBrite;
+			productName = ColorBrite;
+			productReference = 13D600932476A31300BBB1E3 /* ColorBrite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13D600AB2476A31500BBB1E3 /* ColorBriteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13D600C32476A31500BBB1E3 /* Build configuration list for PBXNativeTarget "ColorBriteTests" */;
+			buildPhases = (
+				5AC0F3ADFADE7A6239C65C46 /* [CP] Check Pods Manifest.lock */,
+				13D600A82476A31500BBB1E3 /* Sources */,
+				13D600A92476A31500BBB1E3 /* Frameworks */,
+				13D600AA2476A31500BBB1E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13D600AE2476A31500BBB1E3 /* PBXTargetDependency */,
+			);
+			name = ColorBriteTests;
+			productName = ColorBriteTests;
+			productReference = 13D600AC2476A31500BBB1E3 /* ColorBriteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13D600B62476A31500BBB1E3 /* ColorBriteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13D600C62476A31500BBB1E3 /* Build configuration list for PBXNativeTarget "ColorBriteUITests" */;
+			buildPhases = (
+				486CCEF8085DE7D18AC48D97 /* [CP] Check Pods Manifest.lock */,
+				13D600B32476A31500BBB1E3 /* Sources */,
+				13D600B42476A31500BBB1E3 /* Frameworks */,
+				13D600B52476A31500BBB1E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13D600B92476A31500BBB1E3 /* PBXTargetDependency */,
+			);
+			name = ColorBriteUITests;
+			productName = ColorBriteUITests;
+			productReference = 13D600B72476A31500BBB1E3 /* ColorBriteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13D6008B2476A31300BBB1E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = ColorBriteTeam;
+				TargetAttributes = {
+					13D600922476A31300BBB1E3 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					13D600AB2476A31500BBB1E3 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 13D600922476A31300BBB1E3;
+					};
+					13D600B62476A31500BBB1E3 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 13D600922476A31300BBB1E3;
+					};
+				};
+			};
+			buildConfigurationList = 13D6008E2476A31300BBB1E3 /* Build configuration list for PBXProject "ColorBrite" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13D6008A2476A31300BBB1E3;
+			productRefGroup = 13D600942476A31300BBB1E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13D600922476A31300BBB1E3 /* ColorBrite */,
+				13D600AB2476A31500BBB1E3 /* ColorBriteTests */,
+				13D600B62476A31500BBB1E3 /* ColorBriteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13D600912476A31300BBB1E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D600A62476A31500BBB1E3 /* LaunchScreen.storyboard in Resources */,
+				13D600A32476A31500BBB1E3 /* Preview Assets.xcassets in Resources */,
+				13648D53248D148100E698CA /* Error.mp3 in Resources */,
+				13648D52248D148100E698CA /* Win.mp3 in Resources */,
+				13D600A02476A31500BBB1E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D600AA2476A31500BBB1E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D600B52476A31500BBB1E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		486CCEF8085DE7D18AC48D97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ColorBrite-ColorBriteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AC0F3ADFADE7A6239C65C46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ColorBriteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D87AD77FD5189302A46E6EED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ColorBrite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13D6008F2476A31300BBB1E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D600CC2476A59800BBB1E3 /* CircleView.swift in Sources */,
+				1303D29524789BE40087A4EA /* MainView.swift in Sources */,
+				13CEEDDE248A8E3D00684145 /* CentralView.swift in Sources */,
+				13D600CA2476A32E00BBB1E3 /* TimerView.swift in Sources */,
+				13D6009C2476A31300BBB1E3 /* ColorBrite.xcdatamodeld in Sources */,
+				13D600972476A31300BBB1E3 /* AppDelegate.swift in Sources */,
+				13D6009E2476A31300BBB1E3 /* ContentView.swift in Sources */,
+				13759C67247829C10047B751 /* TimeObject.swift in Sources */,
+				13CEEDDC248A6B3800684145 /* Istruzioni.swift in Sources */,
+				13D600992476A31300BBB1E3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D600A82476A31500BBB1E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D600B12476A31500BBB1E3 /* ColorBriteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D600B32476A31500BBB1E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D600BC2476A31500BBB1E3 /* ColorBriteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13D600AE2476A31500BBB1E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13D600922476A31300BBB1E3 /* ColorBrite */;
+			targetProxy = 13D600AD2476A31500BBB1E3 /* PBXContainerItemProxy */;
+		};
+		13D600B92476A31500BBB1E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13D600922476A31300BBB1E3 /* ColorBrite */;
+			targetProxy = 13D600B82476A31500BBB1E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13D600A42476A31500BBB1E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13D600A52476A31500BBB1E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13D600BE2476A31500BBB1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13D600BF2476A31500BBB1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13D600C12476A31500BBB1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 511FD15CF01F75051804BE14 /* Pods-ColorBrite.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"ColorBrite/Preview Content\"";
+				DEVELOPMENT_TEAM = HV35G94BC3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ColorBrite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = ColorBriteTeam.ColorBrite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		13D600C22476A31500BBB1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59A7088EEEDDBD0A4888E881 /* Pods-ColorBrite.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"ColorBrite/Preview Content\"";
+				DEVELOPMENT_TEAM = HV35G94BC3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ColorBrite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = ColorBriteTeam.ColorBrite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		13D600C42476A31500BBB1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B822BDE6417CEC9583FB765E /* Pods-ColorBriteTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HV35G94BC3;
+				INFOPLIST_FILE = ColorBriteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ColorBriteTeam.ColorBriteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorBrite.app/ColorBrite";
+			};
+			name = Debug;
+		};
+		13D600C52476A31500BBB1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9601CD83F2B2466B29F08CBE /* Pods-ColorBriteTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HV35G94BC3;
+				INFOPLIST_FILE = ColorBriteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ColorBriteTeam.ColorBriteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorBrite.app/ColorBrite";
+			};
+			name = Release;
+		};
+		13D600C72476A31500BBB1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A376E16F572AA6F2F1C140B /* Pods-ColorBrite-ColorBriteUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HV35G94BC3;
+				INFOPLIST_FILE = ColorBriteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ColorBriteTeam.ColorBriteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColorBrite;
+			};
+			name = Debug;
+		};
+		13D600C82476A31500BBB1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F472F4ADE6D4425F933190F3 /* Pods-ColorBrite-ColorBriteUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HV35G94BC3;
+				INFOPLIST_FILE = ColorBriteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ColorBriteTeam.ColorBriteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColorBrite;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13D6008E2476A31300BBB1E3 /* Build configuration list for PBXProject "ColorBrite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D600BE2476A31500BBB1E3 /* Debug */,
+				13D600BF2476A31500BBB1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13D600C02476A31500BBB1E3 /* Build configuration list for PBXNativeTarget "ColorBrite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D600C12476A31500BBB1E3 /* Debug */,
+				13D600C22476A31500BBB1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13D600C32476A31500BBB1E3 /* Build configuration list for PBXNativeTarget "ColorBriteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D600C42476A31500BBB1E3 /* Debug */,
+				13D600C52476A31500BBB1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13D600C62476A31500BBB1E3 /* Build configuration list for PBXNativeTarget "ColorBriteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D600C72476A31500BBB1E3 /* Debug */,
+				13D600C82476A31500BBB1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		13D6009A2476A31300BBB1E3 /* ColorBrite.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				13D6009B2476A31300BBB1E3 /* ColorBrite.xcdatamodel */,
+			);
+			currentVersion = 13D6009B2476A31300BBB1E3 /* ColorBrite.xcdatamodel */;
+			path = ColorBrite.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 13D6008B2476A31300BBB1E3 /* Project object */;
+}
